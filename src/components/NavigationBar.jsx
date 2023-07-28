@@ -1,6 +1,6 @@
 import { useState } from "react"
 // import Logo from "../images/logo.png";
-import { TWITTER_LINK, MAILTO_LINK } from "../consts";
+import { TWITTER_LINK, MAILTO_LINK, SITE_TITLE } from "../consts";
 
 export default function NavBar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ export default function NavBar() {
                           src={Logo}
                           alt=''
                         /> */}
-                        ProductAnywhere
+                        {SITE_TITLE}
                       </a>
                     </div>
                   </div>
@@ -89,7 +89,7 @@ export default function NavBar() {
                   <div className='flex items-center justify-between -m-2'>
                     <div className='w-auto p-2'>
                       <a className='inline-block text-xl font-semibold' href='#'>
-                        ProductAnywhere
+                        {SITE_TITLE}
                       </a>
                     </div>
                     <div className='w-auto p-2'>
