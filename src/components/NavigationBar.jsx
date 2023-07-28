@@ -29,7 +29,7 @@ export default function NavBar() {
                           <a href='#how-it-works'>How it Works</a>
                         </li> */}
                         <li className='mr-14 font-medium hover:underline underline-offset-4 tracking-tight cursor-pointer'>
-                          <a href={TWITTER_URL}>Twitter</a>
+                          <a href={TWITTER_LINK}>Twitter</a>
                         </li>
                         <li className='mr-8 font-medium hover:underline underline-offset-4 tracking-tight border-r pr-8 cursor-pointer'>
                           <a href={MAILTO_LINK}>Contact Us</a>
@@ -119,7 +119,7 @@ export default function NavBar() {
                       <a href='#how-it-works'>How it Works</a>
                     </li> */}
                     <li className='mb-12 font-medium hover:text-gray-900 tracking-tight'>
-                      <a href={TWITTER_URL}>Twitter</a>
+                      <a href={TWITTER_LINK}>Twitter</a>
                     </li>
                     <li className='mb-12 font-medium hover:text-gray-900 tracking-tight'>
                       <a href={MAILTO_LINK}>Contact Us</a>
