@@ -42,7 +42,7 @@ export default function NavBar() {
                           className='inline-block px-5 py-3 text-white font-semibold text-center tracking-tight bg-indigo-500 hover:bg-indigo-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200'
                           href='#'
                         >
-                          Find Your Dream Team
+                          Start Your Search
                         </a>
                       </div>
                     </div>
@@ -131,7 +131,7 @@ export default function NavBar() {
                     className='inline-block px-5 py-3 text-white font-semibold text-center tracking-tight bg-indigo-500 hover:bg-indigo-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200'
                     href='#'
                   >
-                    Find Your Dream Team
+                    Start Your Search
                   </a>
                 </div>
               </div>
