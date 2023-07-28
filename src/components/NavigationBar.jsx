@@ -1,6 +1,6 @@
 import { useState } from "react"
 // import Logo from "../images/logo.png";
-import { TWITTER_URL, MAILTO_LINK } from "../consts";
+import { TWITTER_LINK, MAILTO_LINK } from "../consts";
 
 export default function NavBar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ export default function NavBar() {
                           src={Logo}
                           alt=''
                         /> */}
-                        PATHIO
+                        ProductAnywhere
                       </a>
                     </div>
                   </div>
@@ -25,9 +25,9 @@ export default function NavBar() {
                   <div className='flex flex-wrap items-center'>
                     <div className='w-auto hidden lg:block'>
                       <ul className='flex items-center mr-8'>
-                        <li className='mr-14 font-medium hover:underline underline-offset-4 tracking-tight cursor-pointer'>
+                        {/* <li className='mr-14 font-medium hover:underline underline-offset-4 tracking-tight cursor-pointer'>
                           <a href='#how-it-works'>How it Works</a>
-                        </li>
+                        </li> */}
                         <li className='mr-14 font-medium hover:underline underline-offset-4 tracking-tight cursor-pointer'>
                           <a href={TWITTER_URL}>Twitter</a>
                         </li>
@@ -42,7 +42,7 @@ export default function NavBar() {
                           className='inline-block px-5 py-3 text-white font-semibold text-center tracking-tight bg-indigo-500 hover:bg-indigo-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200'
                           href='#'
                         >
-                          Begin Your Journey
+                          Find Your Dream Team
                         </a>
                       </div>
                     </div>
@@ -88,11 +88,8 @@ export default function NavBar() {
                 <div className='w-full'>
                   <div className='flex items-center justify-between -m-2'>
                     <div className='w-auto p-2'>
-                      <a className='inline-block' href='#'>
-                        <img
-                          src='basko-assets/logos/basko-logo-dark.png'
-                          alt=''
-                        />
+                      <a className='inline-block text-xl font-semibold' href='#'>
+                        ProductAnywhere
                       </a>
                     </div>
                     <div className='w-auto p-2'>
@@ -118,9 +115,9 @@ export default function NavBar() {
                 </div>
                 <div className='flex flex-col justify-center py-16 w-full'>
                   <ul>
-                    <li className='mb-12 font-medium hover:text-gray-900 tracking-tight'>
+                    {/* <li className='mb-12 font-medium hover:text-gray-900 tracking-tight'>
                       <a href='#how-it-works'>How it Works</a>
-                    </li>
+                    </li> */}
                     <li className='mb-12 font-medium hover:text-gray-900 tracking-tight'>
                       <a href={TWITTER_URL}>Twitter</a>
                     </li>
@@ -134,7 +131,7 @@ export default function NavBar() {
                     className='inline-block px-5 py-3 text-white font-semibold text-center tracking-tight bg-indigo-500 hover:bg-indigo-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200'
                     href='#'
                   >
-                    Begin Your Journey
+                    Find Your Dream Team
                   </a>
                 </div>
               </div>
