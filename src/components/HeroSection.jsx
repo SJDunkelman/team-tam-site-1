@@ -5,7 +5,7 @@ import { TYPEFORM_LINK } from "../consts";
 export default function HeroSection() {
     return (
         <div className="relative flex flex-wrap w-screen h-screen overflow-y-hidden bg-base">
-            <div className="absolute top-0 w-full">
+            <div className="absolute top-0 w-full z-50">
                 <NavigationBar />
             </div>
             <div className="hidden relative md:block md:w-1/2 h-full">
